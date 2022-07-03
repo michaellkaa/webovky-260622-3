@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="root.css">
     <link rel="icon" href="home.svg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -29,11 +31,13 @@
 </div>
 
 <div class="about" id="about">
-<h4>ABOUT</h4>
 
+<h4>ABOUT</h4>
+<div data-aos="fade-up" data-aos-duration="3000">
 <span>
 <p> Jsem Michaela Ptáčková, je mi 14 let a hlásím se na Creative Hill College. Mým cílem je obor Multimédia a grafický design, ale chci pokračovat i v tvorbě webových stránek, se kterou jsem začala začátkem roku 2022.</p> 
 <p>Mimo tvorbu webovek se zajímám o umění, což zahrnuje grafický design, hudbu, hru na klávesy, flétnu a kytaru, a taky knihy a poezii.</p>
+
 <h6>Škola</h6>
 <p>Ohledně volného času v rámci školy dělám olympiády z češtiny, angličtiny, fyziky, matematiky, chemie a taky dělám literární soutěže.</p>
 <p>Také mám v plánu psát knihu na téma lgbt, blm a suicide awarness.</p>
@@ -43,6 +47,7 @@ Také se ale inspiruji na sociálních sítích jako je twitter, instagram a jin
 </p>
 <p>Pokud vás zajímají mé práce tak je najdete v mém <a href="">portfoliu</a>.</p>
 </span>
+</div>
 </div>
 <div class="kontakt" id="kontakt">
     <footer>
@@ -55,6 +60,9 @@ Také se ale inspiruji na sociálních sítích jako je twitter, instagram a jin
     </footer>
 </div>
 <script src="script.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
