@@ -14,7 +14,7 @@ header {
 
 #logo {
     width: auto;
-    height: 30px;
+    height: 35px;
     cursor: pointer;
 }
 
@@ -127,7 +127,7 @@ footer {
 }
 
 .kontakt a:hover {
-    font-size: 18px;
+    /*font-size: 18px;*/
     color: var(--third-color);
     transition: 200ms;
 }
@@ -307,9 +307,9 @@ footer {
 
 @media screen and (max-width: 250px) {
     .about p {font-size: 8px;}
-    .introduce h1 {font-size: 45px;}
+    .introduce h1 {font-size: 40px;}
     .introduce p {font-size: 20px;}
-    .about {padding: 20px 40px 0 40px;
+    .about {padding: 20px 30px 0 30px;
     text-align: center;}
     .navigace {font-size: 8px;
     word-spacing: 8px;}
@@ -317,6 +317,7 @@ footer {
     .kontakt a:hover {font-size: 8px;}
     .about h4 {font-size: 25px;}
     .about h6 {font-size: 20px;}
+    .about p {font-size: 10px;}
     #logo {width: 40px; height: auto;}
 }
 
@@ -344,8 +345,8 @@ footer {
     .navigace {font-size: 6px;
     word-spacing: 5px;}
     #logo {width: 35px; height: auto;}
-    .kontakt {font-size: 8px;}
-    .kontakt a:hover {font-size: 8px;}
+    .kontakt {font-size: 9.5px;}
+    .kontakt a:hover {font-size: 9.5px;}
     .about h4 {font-size: 25px;}
     .about h6 {font-size: 18px;}
 
